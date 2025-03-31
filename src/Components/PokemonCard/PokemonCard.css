@@ -36,3 +36,14 @@ figure h2{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+@media only screen and (max-width:320px){
+  figure img {
+    width: 100px;
+  height: 100px;
+  padding: 0px;
+  }
+  figure{
+    font-size: 12px;
+    padding: 0px;
+  }
+}

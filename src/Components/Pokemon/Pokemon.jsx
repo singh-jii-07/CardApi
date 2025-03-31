@@ -41,7 +41,7 @@ const Pokemon = () => {
   return (
     <div className="container">
       <header>
-        <h1>Let's Catch Pokémon</h1>
+        <h1 className="heading">Let's Catch Pokémon</h1>
       </header>
       <div className="search-pokemon">
         <input

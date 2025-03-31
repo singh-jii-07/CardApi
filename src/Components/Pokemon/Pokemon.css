@@ -3,6 +3,27 @@
     grid-template-columns: repeat(4,1fr);
 
 }
+@media only screen and (max-width:320px)  {
+    .flex{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: -90px;
+    }
+    
+    *{
+        text-align: start;
+        overflow-x: hidden;
+    }
+     .heading{
+        margin-left: -50px;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .search-pokemon input{
+        margin-left: -50px;
+        width: 200px;
+    }
+}
 *{
     text-align: center;
 
