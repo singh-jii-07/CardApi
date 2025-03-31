@@ -1,49 +1,57 @@
 .cart {
   list-style: none;
 }
-figure{
-    background-color: rgb(127, 177, 177);
-    padding: 10px;
-    border-radius: 40px;
-    transition-duration: 1s;
+
+figure {
+  background-color: rgb(127, 177, 177);
+  padding: 10px;
+  border-radius: 40px;
+  transition: all 1s ease-in-out; 
 }
-figure:hover{
-  box-shadow: 5px 5px 5px rgb(190, 84, 84);
+
+figure:hover {
+  box-shadow: 5px 5px 15px rgba(190, 84, 84, 0.6);
   transform: scale(1.1);
 }
+
 figure img {
   width: 200px;
   height: 150px;
   background: #6197d5;
   border-radius: 50%;
- padding: 5px;
+  padding: 5px;
+}
 
+figure h1 {
+  font-size: 20px;
 }
-figure h1{
-    font-size: 20px;
+
+figure h2 {
+  font-size: 20px;
+  background: #0ddb55;
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  border-radius: 50px;
 }
-figure h2{
-    font-size: 20px;
-    background: #0ddb55;
-    display: inline-block;
-    color: white;
-    padding: 5px;
-    border-radius: 50px;
+
+.pro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.pro{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-@media only screen and (max-width:320px){
+
+
+@media screen and (max-width: 425px) {
   figure img {
     width: 100px;
-  height: 100px;
-  padding: 0px;
+    height: 100px;
+    padding: 0;
   }
-  figure{
+
+  figure {
     font-size: 12px;
-    padding: 0px;
+    padding: 5px;
   }
 }
