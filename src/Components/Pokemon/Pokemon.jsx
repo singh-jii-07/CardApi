@@ -7,7 +7,7 @@ const Pokemon = () => {
   const [search, setSearch] = useState("");
   const [loading,setLoading]=useState(true);
 
-  const Api = "https://pokeapi.co/api/v2/pokemon?limit=124";
+  const Api = "https://pokeapi.co/api/v2/pokemon?limit=1032";
 
   const fetchPokemon = async () => {
     const ref = await fetch(Api);
